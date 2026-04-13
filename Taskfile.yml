@@ -29,6 +29,18 @@ includes:
   commit:
     taskfile: ./tasks/commit.yml
     optional: true
+  roadmap:
+    taskfile: ./tasks/roadmap.yml
+    optional: true
+  migrate:
+    taskfile: ./tasks/migrate.yml
+    optional: true
+  project:
+    taskfile: ./tasks/project.yml
+    optional: true
+  scope:
+    taskfile: ./tasks/scope.yml
+    optional: true
 
 tasks:
   default:
